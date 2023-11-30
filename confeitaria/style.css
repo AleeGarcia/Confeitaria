@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: rgb(255, 132, 210);
+    height: 7vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>div {
+    display: flex;
+    align-items: center;
+}
+
+header>div>img {
+    width: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+header>button {
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+
+.menu {
+    background-color: #debfce;
+    width: 20%;
+}
+
+.menu_produtos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.elementos_menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_menu {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.content {
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px rgb(206, 206, 206) solid;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 30%;
+    padding-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card1>h2 {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.card1>p {
+    text-align: center;
+}
+
+.img_bolo {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(207, 135, 181);
+    align-items: center;
+    justify-content: center;
+}
